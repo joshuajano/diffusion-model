@@ -3,4 +3,3 @@ Here, we summarize our exploration of any diffusion model we experimented with. 
 
 ### Latent diffusion model (LDM) / stable diffusion [Github](https://github.com/CompVis/latent-diffusion)
 **Summary**: LDM proposes an efficient diffusion model in latent space (smaller size than the original image) and cross-attention network to collaborate with the condition model. 
-![#f03c15](test)
