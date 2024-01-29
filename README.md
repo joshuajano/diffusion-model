@@ -29,14 +29,14 @@ Here, we summarize our exploration of any diffusion model we experimented with. 
 **Weakness**: This is per-scene optimization and requires more than 45 minutes.  
 
 ### MagicMix: Semantic Mixing with Diffusion Models, ArXiv 2022 [Github](https://magicmix.github.io/)
-**Summary**: This paper presents semantic blending that mixes two different concepts in a semantic manner to synthesize a novel concept while preserving the spatial layout and geometry. The key to maintaining the spatial layout is injecting forwarded noisy images during denoising. \
+**Summary**: This paper presents semantic blending that mixes two concepts in a semantic manner to synthesize a novel concept while preserving the spatial layout and geometry. The key to maintaining the spatial layout is injecting forwarded noisy images during denoising. \
 **Strength**: The resulting image has the original input's spatial and geometry information, but the content changes following the given text. \
 **Weakness**: No code available. Also, we need to properly select the injection step. If not, the result produces a ghosting effect or changes the spatial layout.
 
 ### Imagic: Text-Based Real Image Editing with Diffusion Models, CVPR 2023 [Github](https://imagic-editing.github.io/)
 **Summary**: This paper presents text-based image editing with a diffusion model by introducing a sampling interpolation step. \
 **Strength**: The posture and composition of the resulting image are changed while preserving its original characteristics. \
-**Weakness**: This is per-scene optimization and takes around 8 minutes per scene. Second, we need to properly set the scale of the interpolation value. 
+**Weakness**: This is per-scene optimization and takes around 8 minutes. Second, we need to properly set the scale of the interpolation value. 
 
 ### Prompt-to-Prompt Image Editing with Cross-Attention Control, ICLR 2023 [Github](https://prompt-to-prompt.github.io/)
 **Summary**: This paper presents text-based image editing with a diffusion model by controlling only the cross-attention value.  \
@@ -45,6 +45,11 @@ Here, we summarize our exploration of any diffusion model we experimented with. 
 
 ### Null-text Inversion for Editing Real Images using Guided Diffusion Models, CVPR 2023 [Github](https://null-text-inversion.github.io/)
 **Summary**: Given the RGB image, this paper presents text-based image editing with a diffusion model by controlling only the cross-attention value. \
+**Strength**: The posture and composition of the resulting image are changed while preserving its original characteristics. \
+**Weakness**: Per-scene optimization. We need to properly set the value for the cross-attention. The success of the editing process heavily relies on the condition model. 
+
+### SinFusion: Training Diffusion Models on a Single Image or Video, ICML 2023
+**Summary**: This paper learns the appearance and dynamics of a single image or video while utilizing the conditioning capabilities of diffusion models \
 **Strength**: The posture and composition of the resulting image are changed while preserving its original characteristics. \
 **Weakness**: Per-scene optimization. We need to properly set the value for the cross-attention. The success of the editing process heavily relies on the condition model. 
 
