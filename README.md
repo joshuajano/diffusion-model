@@ -3,6 +3,11 @@ Here, we summarize our exploration of any diffusion model we experimented with. 
 
 ---
 
+### SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations, ICLR 2022 [Github](https://sde-image-editing.github.io/)
+**Summary**: SDEdit is an image synthesis and editing framework based on stochastic differential equations (SDEs) or diffusion models without task-specific optimization. \
+**Strength**: Able to generate images from given conditions such as depth, image, or text without task-specific training. \
+**Weakness**:  Does not work for scene text editing. The resulting image is typically unrealistic. 
+
 ### High-Resolution Image Synthesis with Latent Diffusion Models (LDM) / stable diffusion, CVPR 2022 [Github](https://github.com/CompVis/latent-diffusion)
 **Summary**: LDM proposes an efficient diffusion model in latent space (smaller size than the original image) and cross-attention network to collaborate with the condition model.\
 **Strength**: Able to generate images from given conditions such as depth, image, or text. The result is promising and trained with over a hundred million data on LAION datasets. \
