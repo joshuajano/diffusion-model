@@ -58,3 +58,7 @@ Here, we summarize our exploration of any diffusion model we experimented with. 
 **Strength**: \
 **Weakness**:  
 
+### DreamFusion: Text-to-3D using 2D Diffusion, ICLR 2023 [Github](https://dreamfusion3d.github.io/)
+**Summary**:  \
+**Strength**: \
+**Weakness**:  
