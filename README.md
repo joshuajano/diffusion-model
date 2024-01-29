@@ -29,16 +29,19 @@ Here, we summarize our exploration of any diffusion model we experimented with. 
 **Weakness**: No code available. Also, we need to properly select the injection step. If not, the result produces a ghosting effect or changes the spatial layout.
 
 ### Imagic: Text-Based Real Image Editing with Diffusion Models, CVPR 2023 [Github](https://imagic-editing.github.io/)
-**Summary**: This paper presents text-based image editing with a diffusion model by introducing a sampling interpolation step. 
+**Summary**: This paper presents text-based image editing with a diffusion model by introducing a sampling interpolation step. \
 **Strength**: The posture and composition of the resulting image are changed while preserving its original characteristics. \
 **Weakness**: This is per-scene optimization and takes around 8 minutes per scene. Second, we need to properly set the scale of the interpolation value. 
 
 ### Prompt-to-Prompt Image Editing with Cross-Attention Control, ICLR 2023 [Github](https://prompt-to-prompt.github.io/)
-**Summary**: This paper presents text-based image editing with a diffusion model by controlling only the cross-attention value.  
+**Summary**: This paper presents text-based image editing with a diffusion model by controlling only the cross-attention value.  \
 **Strength**: There is no optimization. The posture and composition of the resulting image are changed while preserving its original characteristics. \
-**Weakness**: We need to properly set the value for the cross-attention. The success of the editing process heavily relies on condition model. 
+**Weakness**: We need to properly set the value for the cross-attention. The success of the editing process heavily relies on the condition model. 
 
-
+### Null-text Inversion for Editing Real Images using Guided Diffusion Models, CVPR 2023 [Github](https://null-text-inversion.github.io/)
+**Summary**: Given the RGB image, this paper presents text-based image editing with a diffusion model by controlling only the cross-attention value. \
+**Strength**: The posture and composition of the resulting image are changed while preserving its original characteristics. \
+**Weakness**: Per-scene optimization. We need to properly set the value for the cross-attention. The success of the editing process heavily relies on the condition model. 
 
 
 
