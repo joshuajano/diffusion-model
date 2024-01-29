@@ -23,5 +23,12 @@ Here, we summarize our exploration of any diffusion model we experimented with. 
 **Strength**: The resulting image is consistent with the original image, while the inpainted region has a similar structure to the original image. \
 **Weakness**: This is per-scene optimization and requires more than 45 minutes.  
 
+### MagicMix: Semantic Mixing with Diffusion Models, ArXiv 2022 [Github](https://magicmix.github.io/)
+**Summary**: This paper presents semantic blending that mixes two different concepts in a semantic manner to synthesize a novel concept while preserving the spatial layout and geometry. The key to maintaining the spatial layout is injecting forwarded noisy images during denoising. \
+**Strength**: The resulting image has the original input's spatial and geometry information, but the content changes following the given text. \
+**Weakness**: No code available. Also, we need to properly select the injection step. If not, the result produce ghosting effect or totally change the spatial layout
+
+
+
 
 
