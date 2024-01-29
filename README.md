@@ -48,7 +48,7 @@ Here, we summarize our exploration of any diffusion model we experimented with. 
 **Strength**: The posture and composition of the resulting image are changed while preserving its original characteristics. \
 **Weakness**: Per-scene optimization. We need to properly set the value for the cross-attention. The success of the editing process heavily relies on the condition model. 
 
-### SinFusion: Training Diffusion Models on a Single Image or Video, ICML 2023
+### SinFusion: Training Diffusion Models on a Single Image or Video, ICML 2023 [Github](https://yaniv.nikankin.com/sinfusion/)
 **Summary**: This paper learns the appearance and dynamics of a single image or video while utilizing the conditioning capabilities of diffusion models \
 **Strength**: The posture and composition of the resulting image are changed while preserving its original characteristics. \
 **Weakness**: Per-scene optimization. We need to properly set the value for the cross-attention. The success of the editing process heavily relies on the condition model. 
