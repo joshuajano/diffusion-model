@@ -9,3 +9,6 @@ Here, we summarize our exploration of any diffusion model we experimented with. 
 **Problem**:  Does not work for scene text generation and image editing. The resulting image is typically unrealistic. 
 
 ---
+
+### DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation, CVPR 2022 [Github](https://github.com/gwang-kim/DiffusionCLIP)
+**Summary**: This paper presents image editing with a diffusion model from the given prompt. They proposed forward DDIM (where the noisy image can be obtained by adding the predicted noise) and CLIP loss for editing the image.
