@@ -53,6 +53,8 @@ Here, we summarize our exploration of any diffusion model we experimented with. 
 **Strength**: The posture and composition of the resulting image are changed while preserving its original characteristics. \
 **Weakness**: Per-scene optimization. We need to properly set the value for the cross-attention. The success of the editing process heavily relies on the condition model. 
 
-
-
+### An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion, ICLR 2023 [Github](https://textual-inversion.github.io/)
+**Summary**:  \
+**Strength**: \
+**Weakness**:  
 
